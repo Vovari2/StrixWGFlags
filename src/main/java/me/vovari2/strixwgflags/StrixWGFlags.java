@@ -10,7 +10,6 @@ public final class StrixWGFlags extends JavaPlugin {
 
     private String PLUGIN_NAME;
     private String VERSION;
-    private String AUTHOR;
 
     private WorldGuardPlatform PLATFORM;
 
@@ -20,7 +19,6 @@ public final class StrixWGFlags extends JavaPlugin {
 
         PLUGIN_NAME = INSTANCE.getName();
         VERSION = INSTANCE.getPluginMeta().getVersion();
-        AUTHOR = INSTANCE.getPluginMeta().getAuthors().getFirst();
 
         Plugins.load();
     }
