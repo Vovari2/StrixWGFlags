@@ -1,0 +1,10 @@
+name: StrixWGFlags
+version: '${version}'
+authors: [Vovari2]
+main: me.vovari2.strixwgflags.StrixWGFlags
+api-version: '1.21'
+dependencies:
+  server:
+    WorldGuard:
+      load: BEFORE
+      required: true
